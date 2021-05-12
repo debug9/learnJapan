@@ -48,6 +48,7 @@ export default {
     login () {
       if (!this.valAccount) {
         this.$store.state.warning = '請先輸入帳號喔'
+        console.log('rser')
         return false
       } else if (!this.valPassword) {
         this.$store.state.warning = '請先輸入密碼喔'
