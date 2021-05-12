@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
-// import router from './router'
+import router from './router'
 
 Vue.use(Vuex)
 
@@ -12,10 +12,11 @@ const store1 = new Vuex.Store({
   },
   actions: {
     GetUser (context, member) {
+      localStorage.clear('token')
       axios.get('http://localhost:3000/member').then(function (res) {
         if (res.data[0].account === member.account && res.data[0].password === member.password) {
           localStorage.setItem('token', 'ImLogin')
-          this.$router.push('/member')
+          router.push('/member')
         } else if (res.data[0].account !== member.account) {
           context.commit('wrongAccount')
         } else if (res.data[0].password !== member.password) {

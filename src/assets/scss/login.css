@@ -23,6 +23,7 @@
 }
 
 .content .right {
+  overflow: scroll;
   width: 62%;
   text-align: center;
 }
@@ -105,6 +106,7 @@
 .login .login_button .button_forgetPW {
   color: #5b9acb;
   margin-right: 20px;
+  padding-bottom: 30px;
 }
 
 .login .login_button .button_register {

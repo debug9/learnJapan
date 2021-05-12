@@ -39,6 +39,9 @@ export default {
       valPassword: ''
     }
   },
+  created () {
+    localStorage.clear('token')
+  },
   computed: {
     warning () {
       return this.$store.state.warning
@@ -46,10 +49,10 @@ export default {
   },
   methods: {
     login () {
-      if (!this.valAccount) {
+      if (this.valAccount.length === 0) {
         this.$store.state.warning = '請先輸入帳號喔'
         return false
-      } else if (!this.valPassword) {
+      } else if (this.valPassword.length === 0) {
         this.$store.state.warning = '請先輸入密碼喔'
         return false
       } else {
