@@ -1,0 +1,162 @@
+{
+  "member": [
+    {
+      "account": "lucky07",
+      "password": "1qazxsw2"
+    }
+  ],
+  "vocabEnd2ki": [
+    {
+      "id": 0,
+      "Hiragana": "時",
+      "Katakana": "(とき)",
+      "Chinese": null
+    },
+    {
+      "Hiragana": "1",
+      "Katakana": "()",
+      "Chinese": "1",
+      "id": 1
+    },
+    {
+      "Hiragana": "7",
+      "Katakana": "()",
+      "Chinese": "7",
+      "id": 7
+    },
+    {
+      "Hiragana": "fsdf",
+      "Katakana": "()",
+      "Chinese": " ",
+      "id": 8
+    },
+    {
+      "Hiragana": "fdsf",
+      "Katakana": "()",
+      "Chinese": "fdsfdsf",
+      "id": 10
+    },
+    {
+      "Hiragana": "hhhh",
+      "Katakana": "()",
+      "Chinese": "hhhhhh",
+      "id": 12
+    },
+    {
+      "Hiragana": "fsdf",
+      "Katakana": "()",
+      "Chinese": "fdsf",
+      "id": 13
+    }
+  ],
+  "vocabEnd2ku": [
+    {
+      "Hiragana": "僕",
+      "Katakana": "ぼく",
+      "Chinese": null,
+      "id": 1
+    },
+    {
+      "Hiragana": "服",
+      "Katakana": "ふく",
+      "Chinese": null,
+      "id": 2
+    },
+    {
+      "Hiragana": "開く",
+      "Katakana": "(あく)",
+      "Chinese": "打開、開始、舉行",
+      "id": 3
+    },
+    {
+      "Hiragana": "着く",
+      "Katakana": "(つく)",
+      "Chinese": "到、抵達、寄到、入住",
+      "id": 4
+    }
+  ],
+  "vocabEnd2ru": [
+    {
+      "Hiragana": "降る",
+      "Katakana": "ふる",
+      "Chinese": null,
+      "id": 1
+    },
+    {
+      "Hiragana": "売る",
+      "Katakana": "うる",
+      "Chinese": null,
+      "id": 2
+    },
+    {
+      "Hiragana": "摂る",
+      "Katakana": "うどる",
+      "Chinese": null,
+      "id": 3
+    },
+    {
+      "Hiragana": "入る",
+      "Katakana": "(はいる)",
+      "Chinese": "進入、加入",
+      "id": 4
+    },
+    {
+      "Hiragana": "作る",
+      "Katakana": "(つくる)",
+      "Chinese": "製作、製造、創造",
+      "id": 5
+    },
+    {
+      "Hiragana": "来る",
+      "Katakana": "うくる",
+      "Chinese": "來、來到",
+      "id": 6
+    }
+  ],
+  "vocabEnd2su": [
+    {
+      "Hiragana": "貸す",
+      "Katakana": "(かす)",
+      "Chinese": "借",
+      "id": 1
+    },
+    {
+      "Hiragana": "押す",
+      "Katakana": "(おす)",
+      "Chinese": "推",
+      "id": 2
+    },
+    {
+      "Hiragana": "消す",
+      "Katakana": "(けす)",
+      "Chinese": null,
+      "id": 3
+    }
+  ],
+  "vocabEnd3ru": [
+    {
+      "Hiragana": "点ける",
+      "Katakana": "つける",
+      "Chinese": null,
+      "id": 4
+    },
+    {
+      "Hiragana": "出来る",
+      "Katakana": "(できる)",
+      "Chinese": "做得到、會、能夠、做完",
+      "id": 5
+    },
+    {
+      "Hiragana": "借りる",
+      "Katakana": "(かりる)",
+      "Chinese": "借入、租用",
+      "id": 6
+    },
+    {
+      "Hiragana": "入れる",
+      "Katakana": "(いれる)",
+      "Chinese": "放入、裝進",
+      "id": 7
+    }
+  ]
+}

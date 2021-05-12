@@ -1,0 +1,47 @@
+$red: #DA230C
+$font-color: #383838
+$border: #c0c0c0
+
+header
+    font-size: 18px
+    text-align: center
+    font-weight: bold
+    margin-bottom: 3%
+    .title
+        color: $red
+        width: 100%
+        display: block
+        border-bottom: 3px solid $red
+        padding-bottom: 10px
+    .lv1>li
+        position: relative
+        display: inline-block
+        vertical-align: top
+        width: 13%
+        text-align: center
+        padding-bottom: 15px
+        margin-right: 100px
+        background-color: #fff
+        a
+            text-decoration: none
+            color: $red
+        .lv2
+            position: absolute
+            top: 35px
+            left: 0
+            list-style: none
+            text-align: left
+            margin-top: 20px
+            background-color: #fff
+            width: 100%
+            opacity: 0.8
+            li
+                margin-bottom: 20px
+                display: none
+            a:hover
+                color: $font-color
+    
+    .lv1>li:hover
+        .lv2
+            li
+                display: block

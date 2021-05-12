@@ -1,0 +1,125 @@
+.content {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  overflow: scroll;
+  border: 1px solid #c0c0c0;
+  -webkit-box-shadow: 10px 10px 10px #d7d6d6;
+          box-shadow: 10px 10px 10px #d7d6d6;
+}
+
+.content .left, .content .right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content .left {
+  width: 38%;
+  background-image: url("../login_index.jpg");
+  background-repeat: no-repeat;
+  background-size: 400%;
+  background-position-x: 40%;
+  background-position-y: 25%;
+}
+
+.content .right {
+  width: 62%;
+  text-align: center;
+}
+
+.title p:first-child {
+  margin-top: 20%;
+  color: #DA230C;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.title p:last-child {
+  margin-top: 4%;
+  line-height: 32px;
+  color: #383838;
+  font-size: 20px;
+}
+
+.login {
+  position: relative;
+  background-color: #fff;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.login .account, .login .password {
+  border: 1px solid #c0c0c0;
+  border-radius: 8px;
+}
+
+.login .account img, .login .password img {
+  width: 25px;
+}
+
+.login .account span, .login .password span {
+  width: 30px;
+  display: inline-block;
+  padding: 10px 20px 5px 5px;
+  font-size: 20px;
+  color: #383838;
+  border-right: 1px solid #c0c0c0;
+}
+
+.login .account input, .login .password input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  width: 70%;
+  height: 45px;
+  vertical-align: top;
+  padding-left: 15px;
+  outline: none;
+  color: #383838;
+  font-size: 18px;
+}
+
+.login .account a, .login .password a {
+  text-decoration: none;
+}
+
+.login .login_button {
+  width: 100%;
+  position: absolute;
+  bottom: -150%;
+}
+
+.login .login_button .button_login {
+  display: block;
+  margin: 22% auto 10% auto;
+  width: 40%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #DA230C;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+}
+
+.login .login_button .button_forgetPW {
+  color: #5b9acb;
+  margin-right: 20px;
+}
+
+.login .login_button .button_register {
+  color: #DA230C;
+}
+
+.login, .password {
+  margin-top: 10%;
+}
+
+.warning {
+  position: absolute;
+  bottom: -50%;
+  text-align: center;
+  width: 100%;
+  color: #DA230C;
+}
+/*# sourceMappingURL=login.css.map */

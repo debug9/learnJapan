@@ -1,0 +1,101 @@
+$red: #DA230C
+$font-color: #383838
+.content
+    margin: 0 auto
+    width: 80%
+    height: 100%
+    box-shadow: 10px 10px 10px #d7d6d6
+    .left
+        width: 62%
+        display: inline-block
+        vertical-align: top
+        .vocab
+            width: 80%
+            margin: 0 auto
+            p
+                margin-bottom: 10px
+                padding: 15px
+                border-radius: 8px
+            
+                // background-color: #ccebee
+            span
+                font-size: 20px
+                color: $font-color
+            .katakana
+                float: right
+            
+    .right
+        position: relative
+        display: inline-block
+        width: 38%
+        background-image: url('../login.jpg')
+        background-repeat: no-repeat
+        background-size: 700%
+        background-position-x: 32%
+        background-position-y: 50%
+        text-align: center
+        .creat_vocab
+            text-align: center
+            position: absolute
+            left: 0
+            bottom: 10%
+            width: 100%
+            input
+                border-top: 0
+                border-left: 0
+                border-right: 0
+                border-bottom: 0
+                width: 70%
+                height: 45px
+                outline: none
+                color: $font-color
+                font-size: 18px
+                border-radius: 8px
+                padding-left: 15px
+                width: 40%
+                display: inline-block
+                opacity: 0.8
+            input:nth-child(1)
+                border-radius: 8px 0 0 8px
+                border-right: 1px solid #a5a5a5
+            input:nth-child(2)
+                border-radius: 0 8px 8px 0
+            .input_chinese
+                width: 84%
+                margin: 5% auto 0 auto
+                display: block
+                border-radius: 8px 8px 8px 8px!important
+            .input_creat_vocab
+                margin-bottom: 10px
+            .button_create
+                display: block
+                width: 40%
+                padding: 10px
+                border-radius: 8px
+                background-color: $red
+                color: #fff
+                border: 0
+                font-size: 16px
+                margin: 15% auto 0 auto
+
+.button_plus,.button_subtract,.button_del
+    border-radius: 99px
+    height: 30px
+    width: 30px
+    font-size: 20px
+    text-align: center
+    vertical-align: middle
+    background-color: $red
+    color: #fff!important
+    border: 0
+.button_plus,.button_subtract
+    position: absolute
+    top: -40px
+    right: 70px
+
+.button_subtract
+    right: 20px
+.button_del
+    padding-top: 0
+    position: relative
+    top: -3px

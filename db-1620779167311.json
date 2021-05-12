@@ -1,0 +1,29 @@
+{
+  "member": [
+    {
+      "account": "lucky07",
+      "password": "1qazxsw2"
+    }
+  ],
+  "vocabName": [
+    {
+      "vocabEnd2ki": null,
+      "vocabEnd2ku": null,
+      "vocabEnd2ru": null,
+      "vocabEnd2su": null,
+      "vocabEnd3ru": null
+    }
+  ],
+  "vocabEnd2ki": [
+    {
+      "Hiragana": "時",
+      "Katakana": "(とき)",
+      "Chinese": null
+    },
+    {
+      "Hiragana": "好き",
+      "Katakana": "(すき)",
+      "Chinese": null
+    }
+  ]
+}
